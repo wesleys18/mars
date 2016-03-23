@@ -8,20 +8,20 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_stutter" id="98">
-            <next>
-              <block type="robot_delay" id="13" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="20">
-                    <field name="NUM">1000</field>
-                  </block>
-                </value>
+          <block type="robot_delay" id="13" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="20">
+                <field name="NUM">1000</field>
               </block>
-            </next>
+            </value>
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="88"></block>
+          <block type="movement_stutter" id="98">
+            <next>
+              <block type="movement_stop" id="88"></block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
