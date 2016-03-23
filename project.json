@@ -1,0 +1,10 @@
+{
+    "name": "mars",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "mars.xml",
+    "author": "wesleys18",
+    "minimum_firmware_version": 42
+}
