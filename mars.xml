@@ -1,13 +1,13 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="71" inline="true" x="27" y="21">
-    <value name="TIMES">
-      <block type="math_number" id="78">
-        <field name="NUM">10</field>
-      </block>
-    </value>
-    <statement name="DO">
-      <block type="movement_forward" id="11">
-        <next>
+  <block type="movement_forward" id="11" x="23" y="5">
+    <next>
+      <block type="controls_repeat" id="71" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="78">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <statement name="DO">
           <block type="robot_delay" id="13" inline="true">
             <value name="DELAY">
               <block type="math_number" id="20">
@@ -15,8 +15,8 @@
               </block>
             </value>
           </block>
-        </next>
+        </statement>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
