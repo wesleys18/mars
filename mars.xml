@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="67" x="25" y="61">
+  <block type="comment_comment" id="67" x="130" y="-55">
     <field name="TEXT">This is Wesley's program</field>
     <next>
       <block type="controls_repeat" id="1" inline="true">
